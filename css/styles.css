@@ -91,7 +91,8 @@ main {
   font-weight: 500;
 }
 
-.nav-item {
+.nav-item,
+.address-item {
   padding: 24px 0;
 }
 
@@ -178,7 +179,7 @@ main {
   line-height: 1.11;
   text-align: center;
   text-transform: capitalize;
-  /* margin-bottom: 72px; */
+  margin-bottom: 72px;
 }
 
 .subtitle {
@@ -195,6 +196,7 @@ main {
 
 .visually-hidden {
   visibility: hidden;
+  display: none;
 }
 
 .benefits-section {
