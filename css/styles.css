@@ -89,9 +89,7 @@ main {
 .nav-li {
   color: #2e2f42;
   font-weight: 500;
-}
-.nav-li-first {
-  padding: 24px 0;
+  padding: 24px 0 24px;
 }
 
 .nav-li:hover {
@@ -193,7 +191,7 @@ main {
 }
 
 .visually-hidden {
-  @include visually-hidden;
+  visibility: hidden;
 }
 
 .benefits-section {
