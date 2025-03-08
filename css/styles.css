@@ -89,6 +89,9 @@ main {
 .nav-li {
   color: #2e2f42;
   font-weight: 500;
+}
+
+.nav-item {
   padding: 24px 0 24px;
 }
 
@@ -191,7 +194,7 @@ main {
 }
 
 .visually-hidden {
-  visibility: hidden;
+  display: none;
 }
 
 .benefits-section {
