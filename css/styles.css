@@ -178,7 +178,7 @@ main {
   line-height: 1.11;
   text-align: center;
   text-transform: capitalize;
-  margin-bottom: 72px;
+  /* margin-bottom: 72px; */
 }
 
 .subtitle {
@@ -189,9 +189,9 @@ main {
   line-height: 1.2;
 }
 
-/* .text-main {
+.text-main {
   color: #434455;
-} */
+}
 
 .visually-hidden {
   visibility: hidden;
