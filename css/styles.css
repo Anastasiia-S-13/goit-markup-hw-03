@@ -92,7 +92,7 @@ main {
 }
 
 .nav-item {
-  padding: 24px 0 24px;
+  padding: 24px 0;
 }
 
 .nav-li:hover {
@@ -194,7 +194,7 @@ main {
 }
 
 .visually-hidden {
-  display: none;
+  visibility: hiddenupdate;
 }
 
 .benefits-section {
