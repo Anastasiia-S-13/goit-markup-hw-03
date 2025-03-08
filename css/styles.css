@@ -89,6 +89,8 @@ main {
 .nav-li {
   color: #2e2f42;
   font-weight: 500;
+}
+.nav-li-first {
   padding: 24px 0;
 }
 
@@ -126,12 +128,9 @@ main {
   color: #404bbf;
 }
 
-.invite-container {
-  padding: 188px 0;
-}
-
 .invite-section {
   background-color: #2e2f42;
+  padding: 188px 0;
 }
 
 .title-page {
@@ -194,7 +193,7 @@ main {
 }
 
 .visually-hidden {
-  display: none;
+  @include visually-hidden;
 }
 
 .benefits-section {
